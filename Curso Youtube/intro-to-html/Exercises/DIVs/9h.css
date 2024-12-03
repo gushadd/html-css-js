@@ -1,0 +1,40 @@
+div {
+  text-align: center;
+}
+
+input:focus {
+  outline-style: none;
+}
+
+.google-logo {
+  width: 200px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.google-search {
+  height: 34px;
+  width: 450px;
+  font-size: 15px;
+  border-radius: 17px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 30px;
+}
+
+.search-button {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+}
+
+.search-button:hover {
+  opacity: 70%;
+}

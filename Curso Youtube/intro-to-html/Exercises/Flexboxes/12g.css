@@ -1,0 +1,65 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profiles-list{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  row-gap: 15px;
+  width: 300px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.prof-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.prof-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.name,
+.description,
+.popular{
+  font-family: Roboto, Arial;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.description,
+.popular {
+  color: grey;
+}
+
+.popular {
+  font-size: 13px;
+}
+
+.follow-button {
+  background-color: rgb(1, 132, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 55px;
+  padding: 7px;
+  transition: opacity 0.15s;
+}
+
+.follow-button:hover {
+  opacity: 80%;
+}

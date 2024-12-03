@@ -1,0 +1,70 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-div {
+  display: inline-block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
+}
+
+.profile-info-div {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.friends-div,
+.friend-picture-div {
+  display: inline-block;
+}
+
+.friend-picture{
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+  border-radius: 11px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.friends {
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+}
+
+.add-friend-button {
+  background-color: rgb(0, 120, 201);
+  color: white;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 7px;
+  border-radius: 5px;
+  transition: opacity 0.15s,  background-color 0.15s;
+}
+
+.add-friend-button:hover {
+  opacity: 80%;
+}
+
+.add-friend-button:active {
+  background-color: rgb(1, 91, 151);;
+}

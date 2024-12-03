@@ -1,0 +1,67 @@
+input:focus {
+  outline-style: none;
+}
+
+.rounded-corners {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border-color: rgb(226, 226, 226);
+  border-style: ridge;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.google {
+  height: 34px;
+  width: 400px;
+  font-size: 15px;
+  border-radius: 17px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.tweet-text-box {
+  height: 30px;
+  width: 250px;
+  font-size: 15px;
+  border: none;
+  vertical-align: middle;
+}
+
+.tweet-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 17;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align: middle;
+}
+
+.tweet-button:hover {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+}

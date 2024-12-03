@@ -1,0 +1,58 @@
+.flex-one,
+.flex-two,
+.flex-three,
+.flex-four {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.flex-three {
+  justify-content: space-between;
+}
+
+.flex-four {
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-div {
+  background-color: lightcoral;
+  width: 200px;
+}
+
+.right-div {
+  background-color: lightgreen;
+  width: 75px;
+}
+
+.left-div-two {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.middle-div-two {
+  background-color: lightcoral;
+  flex: 1;
+}
+
+.right-div-two {
+  background-color: lightblue;
+  width: 75px
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  background-color: lightgreen;
+}
+
+.left,
+.right {
+  background-color: lightblue;
+}
+

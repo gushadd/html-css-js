@@ -1,0 +1,18 @@
+.two-columns-grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  margin-bottom: 100px;
+}
+
+.three-columns-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 100px;
+}
+
+.four-columns-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 20px;
+}
