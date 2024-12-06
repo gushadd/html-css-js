@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(244, 208, 78, 255);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+p{
+  font-family: "Figtree", sans-serif;
+  margin: 0;
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 255);
+  margin-bottom: 20px;
+  height: 530px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 20px;
+  border-color: rgba(17, 17, 17, 255);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 8px 8px 0px rgba(17, 17, 17, 255);
+}
+
+.drawing{
+  border-radius: 12px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.tag {
+  background-color: rgba(244, 208, 78, 255);
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+}
