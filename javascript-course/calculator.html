@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Calculator</title>
+  </head>
+  
+  <body>
+
+    <p>
+      <button onclick="writeToCalculation('1')">1</button>
+      <button onclick="writeToCalculation('2')">2</button>
+      <button onclick="writeToCalculation('3')">3</button>
+      <button onclick="writeToCalculation(' + ')">+</button>
+    </p>
+
+    <p>
+      <button onclick="writeToCalculation('4')">4</button>
+      <button onclick="writeToCalculation('5')">5</button>
+      <button onclick="writeToCalculation('6')">6</button>
+      <button onclick="writeToCalculation(' - ')">-</button>
+    </p>
+
+    <p>
+      <button onclick="writeToCalculation('7')">7</button>
+      <button onclick="writeToCalculation('8')">8</button>
+      <button onclick="writeToCalculation('9')">9</button>
+      <button onclick="writeToCalculation(' * ')">*</button>
+    </p>
+
+    <p>
+      <button onclick="writeToCalculation('0')">0</button>
+      <button onclick="writeToCalculation(' . ')">.</button>
+      <button onclick="writeToCalculation(' = ')">=</button>
+      <button onclick="writeToCalculation(' / ')">/</button>
+    </p>
+
+    <button>Clear</button>
+
+    <script>
+      let calculation = '';
+
+      function writeToCalculation(value){
+        calculation += value;
+        console.log(calculation);
+      }
+    </script>
+  </body>
+
+</html>
